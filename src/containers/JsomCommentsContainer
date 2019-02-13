@@ -1,0 +1,11 @@
+import './JsonComments.css';
+import React, { PureComponent } from 'react';
+import ReactDom from 'react-dom';
+
+export default class JsonComments extends PureComponent {
+    render() {
+        return (
+            <div className="JsonComments"></div>
+        );
+    }
+}
