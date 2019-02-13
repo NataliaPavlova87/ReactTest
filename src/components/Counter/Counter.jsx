@@ -1,3 +1,5 @@
+import './Counter.css';
+
 import React, { PureComponent } from 'react';
 import ReactDom from 'react-dom';
 
@@ -20,7 +22,7 @@ export default class Counter extends PureComponent {
     render() {
         const {counter} = this.state;
         return (
-            <div>
+            <div className = "counter">
                 <h2>Counter</h2>
                 <button name="minus" onClick = {this.handlerCount}>-</button>
                 {counter}
