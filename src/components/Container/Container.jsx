@@ -5,6 +5,8 @@ import Counter from 'components/Counter';
 import CommentList from 'components/CommentList';
 import Toggle from 'components/Toggle';
 import TimerShow from 'components/TimerShow';
+import JsonCommentsContainers from 'containers/JsonCommentsContainers';
+
 
 export default function Container(props) {
         return (
@@ -13,6 +15,7 @@ export default function Container(props) {
                 <CommentList />
                 <Toggle />
                 <TimerShow />
+                <JsonCommentsContainers />
             </div>
         );
 }
