@@ -8,7 +8,7 @@ export default function JsonComments (props) {
         return (
             <div className="json-comments">
                 <ul>
-                    {comments.map((comments, idx) => <li key={idx}><strong>{comments.name}:</strong> {comments.body}</li>)}
+                    {comments.map((comments, idx) => <li key={comments.id}><strong>{comments.name}:</strong> {comments.body}</li>)}
                 </ul>
                 <button onClick={onLoadMore} disabled={loading}>Load More</button>
             </div>
